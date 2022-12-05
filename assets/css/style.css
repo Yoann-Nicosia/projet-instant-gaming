@@ -1,3 +1,19 @@
+body{
+    margin:0;
+}
+
+
 .header{
     background-image: url(/assets/img/bannière.jpg);
+   
+}
+
+.logosvg{
+    width:15vw;
+}
+
+nav{
+    color:white;
+    display:flex;
+    justify-content:space-between;
 }
