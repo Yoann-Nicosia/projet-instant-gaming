@@ -1,0 +1,201 @@
+/* orange : #FF5400 */
+/* gris sombre background : #272727; */
+
+.logosvg{
+    width:120px;
+    height: 31px;
+}
+
+.iconsvg{
+    width: 26px;
+}
+
+body{
+    background-color: #272727;
+    margin:0;
+    color:white;
+    font-family:proximanova,arial,sans-serif;
+}
+
+.logo{
+    margin: 20px 20px 20px 20px;
+}
+
+
+.sous-header{
+    display:flex;
+    justify-content:space-between;
+    margin: 2vh 2vw 0 2vw;
+    margin:0;
+}
+
+header{
+    background: url(/assets/img/bannière.jpg);
+    background-size:cover;
+    
+}
+
+.deux-menus-mid{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:20px;
+}
+
+.menu-bas{
+    display:flex;
+    font-family:proximanova,arial,sans-serif;
+    color:white;
+
+}
+
+.menu-haut{
+    font-size:15px;
+}
+
+ul{
+    list-style-type:none;
+    display:flex;
+    flex-direction: row;
+    padding:0;
+    font-family:proximanova,arial,sans-serif;
+    color:white;
+    justify-content:space-between;
+    margin:0;
+}
+
+li{
+    margin:10px;
+
+}
+
+.svg-icons{
+    display:flex;
+    margin: 20px 20px 20px 20px;
+}
+
+.cart-icon{
+    padding-right:10px;
+    padding-left:50px;
+}
+
+.titre{
+    color:white;
+    font-size:27px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding : 70px 0 0 50px;
+}
+
+.texte-milieu{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 150px;
+}
+
+.promo-prix{
+    display:flex;
+    padding : 0 0 0 50px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:17px;
+}
+
+.promo{
+    background-color:#FF5400;
+    border-radius: 8px 8px 0;
+    padding: 6px 6px 5px 7px;
+    
+}
+
+.prix{
+    font-size: 25px;
+    padding-left:10px;
+    margin:0;
+}
+
+.titre-bouton-tendances{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin : 0 25px 0 15px;
+    padding-top:10px;
+}
+
+button{
+    border-radius: 25px;
+    font-family:proximanova,arial,sans-serif;
+    background: #3D3D3D;
+    color:white;
+    border:none;
+    height: 40px;
+    width:100px;
+}
+
+.section-3-jeux{
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.section-1jeu{
+    width:28%;
+    padding: 0 10px 0 10px;
+}
+
+.section-1jeu img{
+    width:100%;
+    border-radius: 10px;
+}
+
+.section-1jeu img:hover{
+    width:100%;
+    border-radius: 10px;
+    src:url(/assets/img/ghost.gif)
+}
+
+.titre-prix-jeu{
+    display:flex;
+}
+
+.test{
+    background-image : url('/assets/img/spiderman.jpg');
+    width:100%;
+    height:100%;
+}
+
+.test:hover{
+    background-image : url('/assets/img/ghost.gif');
+    width:500px;
+    height:500px;
+}
+
+.bandeau-transition{
+    display:flex;
+    justify-content: center;
+    padding-top : 30px;
+    background-color: black;
+}
+
+.ultra-rapide, .fiable-et-sur, .service-client{
+    display:flex;
+    align-items: center;
+    padding: 0 15px 0 15px;
+}
+
+.logo-fiable-et-sur, .logo-ultra-rapide, .logo-service-client{
+    padding-right:10px;
+}
+
+.texte-fiable-et-sur, .texte-ultra-rapide, .texte-service-client{
+    font-size: 10px;
+}
+
+.texte-fiable-et-sur p, .texte-ultra-rapide p, .texte-service-client p{
+    margin : 0;
+    color:rgb(174, 174, 174);
+}
+
+.titre-fiable-et-sur p, .titre-ultra-rapide p, .titre-service-client p{
+    margin : 0;
+}
+

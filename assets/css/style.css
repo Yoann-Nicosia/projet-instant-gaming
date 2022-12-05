@@ -12,8 +12,24 @@ body{
     width:15vw;
 }
 
-nav{
+.iconsvg{
+    width:2.5vw;
+}
+
+.twosvgicons{
+    display:flex;
+    flex-direction:row;
+}
+
+.nav-dessus{
     color:white;
     display:flex;
     justify-content:space-between;
+    font-family: proximanova,arial,sans-serif;
+}
+
+.line-logo-svg{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
