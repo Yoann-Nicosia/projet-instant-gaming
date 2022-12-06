@@ -17,3 +17,128 @@ nav{
     display:flex;
     justify-content:space-between;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+body{
+    font-family: proximanova,arial,sans-serif;
+    font-weight: 400;
+    margin:0px;
+}
+footer{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.footer-container{
+    padding: 50px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: center;
+    margin-bottom: 0!important;
+    margin-top: auto;
+    color:white;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #272727;
+}
+.logoinstantgaming{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column
+}
+.list-condition{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.list-condition li
+{
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+.KDO{
+    margin-right: 10px;
+}
+.media{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.icons{
+    display:flex;
+    margin:-7px; 
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.icons svg{
+    padding:5px;
+}
+.apps{
+    display: flex;
+    margin-top: 30px;
+}
+.apps .appstore
+{
+    margin:10px;
+}
+.apps .googleplay
+{
+    margin:10px;
+}
+.information{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.geolocalisation{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.iconloca{
+    margin-right: 10px;
+}
+.pays{
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #3d3d3d ;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.07);
+}

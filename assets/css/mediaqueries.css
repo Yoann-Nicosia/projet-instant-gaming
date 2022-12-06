@@ -1,0 +1,62 @@
+@media screen and (max-width: 450px)
+{.footer-container {
+    padding: 15px;
+}
+}
+@media screen and (max-width:450px)
+{.content{
+    max-width: 1200px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.icons{
+    justify-content: center;
+}
+.copyright{
+    text-align: center;
+}
+}
+@media screen and (max-width: 1000px)
+{.footer-container .content .links {
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.footer-container {
+    padding: 20px;
+}
+
+.footer-container .content .links .logoinstantgaming{
+    align-items:center;
+}
+
+.footer-container .content .links .logoinstantgaming .trustpilot{
+    display: none;
+}
+
+.footer-container .content .links .logoinstantgaming .instant-gaming{
+    align-items:center;
+}
+
+
+.footer-container .content .links .list-condition {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.footer-container .content .links .media {
+    align-items: center;
+}
+
+.footer-container .content .information {
+    flex-direction: column-reverse;
+}
+
+.list-condition{
+    padding: 0px 0;
+}
+}
