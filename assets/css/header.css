@@ -211,4 +211,45 @@ button{
 .titre-fiable-et-sur p, .titre-ultra-rapide p, .titre-service-client p{
     margin : 0;
 }
-
+.actions-footer{
+    padding: 30px;
+    background-color: #323232;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.actions-footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.actions-footer .subcribe{
+    max-width: 1200px;
+    align-self: center;
+    width: 100%;
+    display: flex;
+}
+.button{
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #ff5400;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    box-sizing: border-box;
+    padding: 0 30px;
+    transition: .2s;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    white-space: normal;
+}
+.icon-send{
+    padding-top: 20px;
+}
