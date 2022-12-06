@@ -2,5 +2,111 @@
     .jeux-tendances{
         display:flex;
         flex-direction: row;
+        overflow: scroll;
+
+        
+    }
+
+    .photo-joueur img{
+        margin-bottom: -5px;
+        
+    }
+
+    .bandeau-avis{
+        display:flex;
+        flex-direction: row;
+        overflow: scroll;
+        justify-content: flex-start;
+    }
+
+    .bande-rose-transi{
+        display:flex;
+        flex-direction: column-reverse;
+        background: cover;
+    }
+
+    .bandeau-transition{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+     .fiable-et-sur, .service-client, .trustpilot{
+        padding-top:30px;
+    }
+
+    .section-1jeu{
+        width:350px;
+    }
+
+    .photo-joueur{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    .menu-haut{
+        display:none;
+    }
+
+    .search-icon{
+        background: url(./../img/Search.png) no-repeat center;
+        height:5vh;
+        width:300px;
+
+    }
+
+    .jeux-precommande{
+        display:flex;
+        overflow: scroll;
+    }
+
+    .sous-header{
+        display:flex;
+        justify-content: space-around;
+    }
+
+    header{
+        background: url(./../img/bannière.jpg);
+        background-position: center;
+    }
+
+    .img-sup{
+        display:none;
+    }
+
+    .menu-bas{
+        display:flex;
+        margin-top:20px;
+    }
+
+    .section-1jeu{
+        margin-right:30px;
+    }
+
+    .jeux-tendances{
+        padding-left:20px;
+    }
+
+    .section-precommande{
+        padding-left:20px;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width:770px) {
+    .logo img{
+        width:20vw;
+    }
+
+    .deux-menus-mid{
+        width:20vw;
+    }
+}
+
+@media screen and (min-width:967px) and (max-width:1181px){
+    .image-promo-jeu{
+        height: 160px;
+        width: 300px;
+        border-radius: 10px;
     }
 }
