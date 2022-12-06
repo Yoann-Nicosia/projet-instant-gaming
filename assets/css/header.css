@@ -245,6 +245,9 @@ transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will 
     background: url('../video/farming-simulator.gif') no-repeat;
 }
 
+.image-jeu.pokemon{
+    background: url('../img/pokemon-violet.jpeg') no-repeat;
+}
 .image-jeu.pokemon:hover{
     background: url('../video/pokemon.gif') no-repeat;
 }
