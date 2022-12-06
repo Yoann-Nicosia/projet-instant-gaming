@@ -159,10 +159,12 @@ button{
 }
 .titre-preco-jeu{
     color: #3483FF;
+    font-size: medium;
 }
 .titre-preco-jeu span{
+    padding: 2px;
     display: inline-block;
-    border: 1px solid #3483FF;
+    border: 1.5px solid #3483FF;
     border-radius: 4px;
     font-size: small;
 }
