@@ -157,6 +157,16 @@ button{
     display:flex;
     justify-content: space-between;
 }
+.titre-preco-jeu{
+    color: #3483FF;
+}
+.titre-preco-jeu span{
+    display: inline-block;
+    border: 1px solid #3483FF;
+    border-radius: 4px;
+    font-size: small;
+}
+
 
 .test{
     background-image : url('/assets/img/spiderman.jpg');
