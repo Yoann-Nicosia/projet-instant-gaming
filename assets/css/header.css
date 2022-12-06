@@ -30,7 +30,7 @@ body{
 }
 
 header{
-    background: url(/assets/img/bannière.jpg);
+    background: url(./../img/bannière.jpg);
     background-size:cover;
     
 }
@@ -155,6 +155,7 @@ button{
 
 .titre-prix-jeu{
     display:flex;
+    justify-content: space-between;
 }
 
 .test{
