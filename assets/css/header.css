@@ -196,65 +196,88 @@ button{
 transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-.image-jeu{
+.image-promo-jeu{
     height: 210px;
     width: 380px;
     border-radius: 10px;
 }
 
+/* défini la taille des div ayant la classe "image-jeu" et lui donne un border radiux  */
+.image-jeu{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* défini l'image de la div ayant la classe "spiderman" et lui met un hover vidéo */
 .image-jeu.spiderman{
     background: url('../img/spiderman.jpg') no-repeat;
 }
 .image-jeu.spiderman:hover{
     background: url('../video/spider-man.gif') no-repeat;
+    background-size: cover;
 }
 
+/* défini l'image de la div ayant la classe "fifa23" et lui met un hover vidéo */
 .image-jeu.fifa23{
     background: url('../img/fifa23.jpg') no-repeat;
 }
 .image-jeu.fifa23:hover{
     background: url('../video/fifa.gif') no-repeat;
+    background-size: cover;
+    
 }
 
+/* défini l'image de la div ayant la classe "coll-of-duty" et lui met un hover vidéo */
 .image-jeu.call-of-duty{
     background: url('../img/call-of-duty-modern-warfare-2.jpg') no-repeat;
 }
 .image-jeu.call-of-duty:hover{
     background: url('../video/call-of-duty.gif') no-repeat;
+    background-size: cover;
 }
 
+/* défini l'image de la div ayant la classe "evil-west" et lui met un hover vidéo */
 .image-jeu.evil-west{
     background: url('../img/evil-west.jpg') no-repeat;
 }
 .image-jeu.evil-west:hover{
     background: url('../video/evil-west.gif') no-repeat;
+    background-size: cover;
 }
 
+/* défini l'image de la div ayant la classe "bannerlord" et lui met un hover vidéo */
 .image-jeu.bannerlord{
     background: url('../img/bannerlord.jpg') no-repeat;
 }
 .image-jeu.bannerlord:hover{
     background: url('../video/bannerlord.gif') no-repeat;
+    background-size: cover;
 }
 
-
+/* défini l'image de la div ayant la classe "farming-v1" et lui met un hover vidéo */
 .image-jeu.farming-v1{
     background: url('../img/farming-simulator-2-v1.jpg') no-repeat;
 }
 .image-jeu.farming-v1:hover{
     background: url('../video/farming-simulator.gif') no-repeat;
+    background-size: cover;
 }
 
+/* défini l'image de la div ayant la classe "pokemon" et lui met un hover vidéo */
 .image-jeu.pokemon{
     background: url('../img/pokemon-violet.jpeg') no-repeat;
 }
 .image-jeu.pokemon:hover{
     background: url('../video/pokemon.gif') no-repeat;
+    background-size: cover;
 }
 
+/* défini l'image de la div ayant la classe "farming-v2" et lui met un hover vidéo */
 .image-jeu.farming-v2{
     background: url('../img/farming-simulator-2-v2.jpg') no-repeat;
 }
 .image-jeu.farming-v2:hover{
     background: url('../video/farming-simulator.gif') no-repeat;
+    background-size: cover;
 }
