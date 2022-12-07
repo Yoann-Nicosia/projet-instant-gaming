@@ -343,6 +343,7 @@ button{
         width: 380px;
         border-radius: 10px;
     }
+
     
     .image-jeu.spiderman{
         background: url('../img/spiderman.jpg') no-repeat;
@@ -353,6 +354,7 @@ button{
         background-size: cover;
     }
     
+
     .image-jeu.fifa23{
         background: url('../img/fifa23.jpg') no-repeat;
         background-size: cover;
@@ -362,6 +364,7 @@ button{
         background-size: cover;
     }
     
+
     .image-jeu.call-of-duty{
         background: url('../img/call-of-duty-modern-warfare-2.jpg') no-repeat;
         background-size: cover;
@@ -371,6 +374,7 @@ button{
         background-size: cover;
     }
     
+
     .image-jeu.evil-west{
         background: url('../img/evil-west.jpg') no-repeat;
         background-size: cover;
@@ -379,6 +383,7 @@ button{
         background: url('../video/evil-west.gif') no-repeat;
         background-size: cover;
     }
+
     
     .image-jeu.bannerlord{
         background: url('../img/bannerlord.jpg') no-repeat;
@@ -398,12 +403,19 @@ button{
         background: url('../video/farming-simulator.gif') no-repeat;
         background-size: cover;
     }
-    
+
+
+    .image-jeu.pokemon{
+        background: url('../img/pokemon-violet.jpg') no-repeat;
+        background-size: cover;
+    }
+
     .image-jeu.pokemon:hover{
         background: url('../video/pokemon.gif') no-repeat;
         background-size: cover;
     }
     
+
     .image-jeu.farming-v2{
         background: url('../img/farming-simulator-2-v2.jpg') no-repeat;
         background-size: cover;
@@ -413,10 +425,46 @@ button{
         background-size: cover;
     }
 
-    .image-jeu.pokemon{
-        background: url('../img/pokemon-violet.jpg') no-repeat;
+
+    .image-jeu.need-for-speed{
+        background: url('../img/need-for-speed.jpg') no-repeat;
         background-size: cover;
     }
+    .image-jeu.need-for-speed:hover{
+        background: url('../video/need-for-speed.gif') no-repeat;
+        background-size: cover;
+    }
+
+
+    .image-jeu.lightfall{
+        background: url('../img/lightfall.jpg') no-repeat;
+        background-size: cover;
+    }
+    .image-jeu.lightfall:hover{
+        background: url('../video/lightfall.gif') no-repeat;
+        background-size: cover;
+    }
+
+
+    .image-jeu.final{
+        background: url('../img/final.jpg') no-repeat;
+        background-size: cover;
+    }
+    .image-jeu.final:hover{
+        background: url('../video/final.gif') no-repeat;
+        background-size: cover;
+    }
+
+
+    .image-jeu.one-piece{
+        background: url('../img/one-piece.jpg') no-repeat;
+        background-size: cover;
+    }
+    .image-jeu.one-piece:hover{
+        background: url('../video/one-piece.gif') no-repeat;
+        background-size: cover;
+    }
+
 
     .image-jeu{
         height: 100%;
