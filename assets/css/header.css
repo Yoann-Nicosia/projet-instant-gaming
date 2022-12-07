@@ -55,6 +55,12 @@ header{
     font-size:15px;
 }
 
+.bouton-tendances button:hover, .bouton-precommande button:hover{
+    background-color: #FF5400;
+    transition-duration: 0.5s;
+    transition-property: background-color;
+}
+
 ul{
     list-style-type:none;
     display:flex;
